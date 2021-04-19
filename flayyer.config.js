@@ -9,6 +9,7 @@ module.exports = config({
   deck: 'default',
 
   // Optionals
-  name: "Default deck",
-  description: "This is the default deck created with create-flayyer-app to showcase how to start your own set of templates.",
+  name: 'Default deck',
+  description:
+    'This is the default deck created with create-flayyer-app to showcase how to start your own set of templates.'
 });
