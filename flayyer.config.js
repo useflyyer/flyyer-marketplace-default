@@ -14,7 +14,6 @@ module.exports = config({
   description: dedent`
   This is the default deck created with create-flayyer-app to showcase how to start your own set of templates.
   `,
-  marketplace: true,
   homepage: 'https://flayyer.com',
   keywords: ['flayyer', 'free', 'fade', 'contrast'],
   license: 'MIT',
