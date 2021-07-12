@@ -1,0 +1,50 @@
+{
+  "name": "@flyyer/default",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "flyyer start",
+    "build": "flyyer build",
+    "deploy": "flyyer deploy",
+    "format": "xo --fix"
+  },
+  "dependencies": {
+    "@flyyer/proxy": "^2.0.0",
+    "@flyyer/types": "^2.0.2",
+    "@flyyer/variables": "^2.0.1",
+    "clsx": "^1.1.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@flyyer/cli": "^2.0.1",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.1.2",
+    "@types/react": "^17.0.4",
+    "autoprefixer": "^9",
+    "dotenv": "^8.2.0",
+    "eslint-config-xo-react": "^0.25.0",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "^4.2.4",
+    "xo": "^0.39.1"
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2,
+    "extends": "xo-react",
+    "rules": {
+      "new-cap": "off",
+      "no-unused-vars": "off",
+      "react/prop-types": "off",
+      "react/function-component-definition": "off",
+      "unicorn/prefer-module": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "@typescript-eslint/triple-slash-reference": "off",
+      "@typescript-eslint/no-unused-vars": "off"
+    }
+  }
+}
