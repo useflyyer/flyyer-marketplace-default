@@ -22,9 +22,7 @@ export const schema = V.Object({
     examples: [alternative],
     default: background
   }),
-  logo: V.Image({
-    default: logo
-  })
+  logo: V.Image({default: logo})
 });
 type Variables = Static<typeof schema>;
 

@@ -10,7 +10,11 @@ module.exports = config({
 
   // Optionals
   name: 'Default',
-  description: 'Created with create-flyyer-app',
-  private: true, // Set to false to deploy publicly to https://flyyer.io/community
+  description: 'Default template created with create-flyyer-app',
+  homepage: 'https://www.flyyer.io',
+  license: 'MIT',
+  keywords: ['flyyer', 'free'],
+  repository: 'https://github.com/useflyyer/flyyer-marketplace-default',
+  private: false, // Set to false to deploy publicly to https://flyyer.io/community
   sizes: ['THUMBNAIL', 'BANNER', 'SQUARE', 'STORY'] // Declare supported sizes
 });
